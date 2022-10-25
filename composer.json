@@ -1,0 +1,21 @@
+{
+    "name": "wedrix/inflector",
+    "description": "Useful string functions for inflection of the english grammar.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wedrix\\Inflector\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wedam Anewenah",
+            "email": "wedamja@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "doctrine/inflector": "^2.0"
+    }
+}
